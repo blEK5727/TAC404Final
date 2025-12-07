@@ -1,0 +1,128 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "genre": "Drama",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+      "synopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "duration": 142,
+      "rating": "R"
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "genre": "Action",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests.",
+      "duration": 152,
+      "rating": "PG-13"
+    },
+    {
+      "id": 3,
+      "title": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "genre": "Crime",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+      "duration": 154,
+      "rating": "R"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "userId": 1,
+      "rating": 5,
+      "title": "Masterpiece of Cinema",
+      "content": "One of the greatest films ever made. The storytelling, acting, and cinematography are all top-notch.",
+      "createdAt": "2024-11-15T10:30:00.000Z",
+      "helpful": 45
+    },
+    {
+      "id": 2,
+      "movieId": 1,
+      "userId": 2,
+      "rating": 5,
+      "title": "Simply Perfect",
+      "content": "A film that stays with you long after watching. Morgan Freeman and Tim Robbins deliver outstanding performances.",
+      "createdAt": "2024-11-20T14:20:00.000Z",
+      "helpful": 32
+    },
+    {
+      "id": 3,
+      "movieId": 2,
+      "userId": 1,
+      "rating": 5,
+      "title": "Best Superhero Movie",
+      "content": "Heath Ledger's performance as the Joker is unforgettable. This film transcends the superhero genre.",
+      "createdAt": "2024-11-18T16:45:00.000Z",
+      "helpful": 67
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "moviefan2024",
+      "email": "fan@movies.com",
+      "joinedDate": "2024-01-15",
+      "favoriteGenre": "Drama"
+    },
+    {
+      "id": 2,
+      "username": "criticalviewer",
+      "email": "critic@movies.com",
+      "joinedDate": "2024-03-22",
+      "favoriteGenre": "Action"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "reviewId": 1,
+      "commenterName": "John Doe",
+      "commentBody": "Totally agree! This movie changed my perspective on storytelling.",
+      "timestamp": "2024-11-16T09:15:00.000Z"
+    },
+    {
+      "id": 2,
+      "reviewId": 1,
+      "commenterName": "Jane Smith",
+      "commentBody": "I've watched this movie at least 10 times and it never gets old.",
+      "timestamp": "2024-11-17T11:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "reviewId": 3,
+      "commenterName": "Mike Johnson",
+      "commentBody": "Heath Ledger absolutely deserved that Oscar. RIP to a legend.",
+      "timestamp": "2024-11-19T08:45:00.000Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 1,
+      "favoritedAt": "2024-11-10T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "movieId": 2,
+      "favoritedAt": "2024-11-12T15:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "movieId": 2,
+      "favoritedAt": "2024-11-14T18:20:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+.review-detail {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  color: #e50914;
+  margin-bottom: 24px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #c40812;
+}
+
+.review-content {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.review-header h1 {
+  font-size: 32px;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.review-rating-large {
+  font-size: 28px;
+  font-weight: 700;
+  color: #e50914;
+}
+
+.review-meta {
+  display: flex;
+  gap: 20px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.review-body {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.review-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.comments-section {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.comment-form {
+  background: #f8f9fa;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.comment-form h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.no-comments {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+  font-size: 16px;
+}
+
+.comment {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #e50914;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.comment-header strong {
+  color: #1a1a1a;
+  font-size: 16px;
+}
+
+.comment-time {
+  color: #666;
+  font-size: 13px;
+}
+
+.comment-body {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.btn-delete-comment {
+  background: transparent;
+  color: #dc3545;
+  font-size: 14px;
+  padding: 4px 8px;
+  transition: color 0.3s ease;
+}
+
+.btn-delete-comment:hover {
+  color: #c82333;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .review-content,
+  .comments-section {
+    padding: 24px;
+  }
+
+  .review-header {
+    flex-direction: column;
+  }
+
+  .review-header h1 {
+    font-size: 24px;
+  }
+}
